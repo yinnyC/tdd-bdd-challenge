@@ -6,7 +6,7 @@ BEW 1.2 Day 9 challenges!
 
 ## TDD Practice
 
-Clone the [starter repo](https://github.com/droxey/tdd-bdd-challenge) for this activity and open the code in your preferred code editor.
+Clone the [starter repo](https://github.com/make-school-labs/tdd-bdd-challenge) for this activity and open the code in your preferred code editor.
 
 **The goal is to make each test pass before the end of the class period!**
 
