@@ -1,7 +1,7 @@
-const mocha = require("mocha");
-const chai = require("chai");
-const utils = require("../utils");
-const expect = chai.expect;
+const mocha = require("mocha")
+const chai = require("chai")
+const utils = require("../utils")
+const expect = chai.expect
 
 // ========================================================
 // NOTE: https://mochajs.org/#arrow-functions
@@ -10,19 +10,21 @@ const expect = chai.expect;
 // ========================================================
 
 it("should say hello", function() {
-  const hello = utils.sayHello();
-  expect(hello).to.be.a("string");
-  expect(hello).to.equal("Hello");
-  expect(hello).with.lengthOf(5);
-});
+  const hello = utils.sayHello()
+  expect(hello).to.be.a("string")
+  expect(hello).to.equal("Hello")
+  expect(hello).with.lengthOf(5)
+})
 
 // ========================================================
 // Level 1 Challenges
 // ========================================================
 
-it("should return the area of a 5 by 6 rectangle");
+it("should return the area of a 5 by 6 rectangle")
 
-it("should return the are of a circle of radius 5");
+it("should return the perimeter of a 5 by 6 rectangle")
+
+it("should return the are of a circle of radius 5")
 
 // ========================================================
 // Level 2 Challenges
@@ -32,22 +34,22 @@ it("should return the are of a circle of radius 5");
 // tests eventually.
 // ========================================================
 
-it("Should create a new (object) Item with name and price");
+it("Should create a new (object) Item with name and price")
 
-it("Should return an array containing all items in cart");
+it("Should return an array containing all items in cart")
 
-it("Should add a new item to the shopping cart");
+it("Should add a new item to the shopping cart")
 
-it("Should return the number of items in the cart");
+it("Should return the number of items in the cart")
 
-it("Should remove items from cart");
+it("Should remove items from cart")
 
 // ========================================================
 // Stretch Challenges
 // ========================================================
 
-it("Should update the count of items in the cart");
+it("Should update the count of items in the cart")
 
-it("Should validate that an empty cart has 0 items");
+it("Should validate that an empty cart has 0 items")
 
-it("Should return the total cost of all items in the cart");
+it("Should return the total cost of all items in the cart")

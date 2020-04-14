@@ -2,11 +2,11 @@
 
 BEW 1.2 Day 9 challenges! 
 
-**Fork this repo to begin.**
+**Clone or fork this repo to begin.**
 
-## TDD Practice (70 Minutes)
+## TDD Practice
 
-Use the [in-class-tdd](in-class-tdd/README.md) project in this repo as a starting point. I recommend [forking this starter repo directly](https://github.com/droxey/tdd-bdd-challenge) to best keep track of your changes. Feel free to work with a partner.
+Clone the [starter repo](https://github.com/droxey/tdd-bdd-challenge) for this activity and open the code in your preferred code editor.
 
 **The goal is to make each test pass before the end of the class period!**
 
