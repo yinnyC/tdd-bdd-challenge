@@ -25,10 +25,14 @@ const circleArea = r => {
 // defined) in order to make the tests pass.
 // ========================================================
 
-shoppingCart = []
+const shoppingCart = []
+
+const clearCart = () => {
+  shoppingCart.length = 0
+}
 
 const createItem = (name, price) => {
-  // should return a JSON object for the item
+  return { name, price, quantity: 1 }
 }
 
 const getShoppingCart = () => {
@@ -49,6 +53,6 @@ const removeItemFromCart = (item) => {
 
 module.exports = { 
   sayHello, area, perimeter, circleArea,
-  createItem, getShoppingCart, addItemToShoppingCart, getNumItemsInCart,
-  removeItemFromCart
+  clearCart, createItem, getShoppingCart, addItemToShoppingCart,
+  getNumItemsInCart, removeItemFromCart
 }

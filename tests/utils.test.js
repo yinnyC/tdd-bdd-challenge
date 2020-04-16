@@ -46,6 +46,11 @@ it("should return the are of a circle of radius 5", function() {
 // tests eventually.
 // ========================================================
 
+beforeEach((done) => {
+  utils.clearCart()
+  done()
+})
+
 it("Should create a new (object) Item with name and price", function() {
   const item = utils.createItem("apple", 0.99)
   expect(item).to.be.a("object")
