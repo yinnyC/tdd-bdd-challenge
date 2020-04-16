@@ -39,7 +39,7 @@ const getShoppingCart = () => {
   // should return the current state of shopping cart
 }
 
-const addItemToShoppingCart = (item) => {
+const addItemToCart = (item) => {
   // should add item to shopping cart
 }
 
@@ -53,6 +53,6 @@ const removeItemFromCart = (item) => {
 
 module.exports = { 
   sayHello, area, perimeter, circleArea,
-  clearCart, createItem, getShoppingCart, addItemToShoppingCart,
+  clearCart, createItem, getShoppingCart, addItemToCart,
   getNumItemsInCart, removeItemFromCart
 }
