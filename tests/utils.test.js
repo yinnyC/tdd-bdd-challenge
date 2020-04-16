@@ -20,11 +20,23 @@ it("should say hello", function() {
 // Level 1 Challenges
 // ========================================================
 
-it("should return the area of a 5 by 6 rectangle")
+it("should return the area of a 5 by 6 rectangle", function() {
+  const area = utils.area(5, 6)
+  expect(area).to.be.a("number")
+  expect(area).to.equal(30)
+})
+
+// it("should return null for negative inputs", function() {
+//   const area = utils.area(-5, 6)
+//   expect(area).to.equal(null)
+// })
 
 it("should return the perimeter of a 5 by 6 rectangle")
 
-it("should return the are of a circle of radius 5")
+it("should return the are of a circle of radius 5", function() {
+  const area = utils.circleArea(5)
+  expect(area).to.equal(78.53981633974483)
+})
 
 // ========================================================
 // Level 2 Challenges
@@ -34,7 +46,13 @@ it("should return the are of a circle of radius 5")
 // tests eventually.
 // ========================================================
 
-it("Should create a new (object) Item with name and price")
+it("Should create a new (object) Item with name and price", function() {
+  const item = utils.createItem("apple", 0.99)
+  expect(item).to.be.a("object")
+  expect(item).to.have.property("name", "apple")
+  expect(item).to.have.property("price", 0.99)
+  expect(item).to.have.property("quantity", 1)
+})
 
 it("Should return an array containing all items in cart")
 
