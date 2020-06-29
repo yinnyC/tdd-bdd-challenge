@@ -18,25 +18,16 @@ it("should say hello", function() {
 
 // ========================================================
 // Level 1 Challenges
+// 1. Write the pending tests check that they are pending, like this:
+//    it("should do something that you want done")
+// 2. Next, write the test and see that it fails.
+// 3. Write the code in the utils.js file to make the test pass.
+// 4. Finally see if you would like to refactor your code at all.
+// This is called "Red-Green-Refactor"
 // ========================================================
 
-it("should return the area of a 5 by 6 rectangle", function() {
-  const area = utils.area(5, 6)
-  expect(area).to.be.a("number")
-  expect(area).to.equal(30)
-})
 
-// it("should return null for negative inputs", function() {
-//   const area = utils.area(-5, 6)
-//   expect(area).to.equal(null)
-// })
 
-it("should return the perimeter of a 5 by 6 rectangle")
-
-it("should return the are of a circle of radius 5", function() {
-  const area = utils.circleArea(5)
-  expect(area).to.equal(78.53981633974483)
-})
 
 // ========================================================
 // Level 2 Challenges

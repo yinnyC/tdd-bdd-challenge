@@ -7,15 +7,15 @@ const sayHello = () => {
 }
 
 const area = (w, h) => {
-  return w * h
+  // should return the area
 }
 
 const perimeter = (w, h) => {
-  return w + w + h + h
+  // should return the perimeter
 }
 
 const circleArea = r => {
-  return Math.PI * r * r
+  // should return the area of the circle
 }
 
 // ========================================================
@@ -51,7 +51,7 @@ const removeItemFromCart = (item) => {
   // should remove item from shopping cart
 }
 
-module.exports = { 
+module.exports = {
   sayHello, area, perimeter, circleArea,
   clearCart, createItem, getShoppingCart, addItemToCart,
   getNumItemsInCart, removeItemFromCart

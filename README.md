@@ -1,6 +1,6 @@
 # 🧪 tdd-bdd-challenge
 
-BEW 1.2 Day 9 challenges! 
+BEW 1.2 Day 9 challenges!
 
 **Clone or fork this repo to begin.**
 
@@ -19,6 +19,7 @@ Imagine you just got a job with a MeasureIt.com. They want to create an app that
 * Area should return the area of a rectangle.
 * Perimeter should return the perimeter of a rectangle.
 * Should return the area of a circle with radius.
+* Stretch: Test that any negative widths, breadths, or radii return null
 
 You'll start by writing pending tests for these methods. Then write functions that make the tests pass.
 
