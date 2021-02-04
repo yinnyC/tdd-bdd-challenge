@@ -26,6 +26,24 @@ it("should say hello", function() {
 // This is called "Red-Green-Refactor"
 // ========================================================
 
+it("should return the area", function() {
+  const area = utils.area(4,5)
+  expect(area).to.be.a("number")
+  expect(area).to.equal(20)
+})
+
+it("should return the perimeter", function() {
+  const perimeter = utils.perimeter(4,5)
+  expect(perimeter).to.be.a("number")
+  expect(perimeter).to.equal(18)
+})
+
+it("should return the area of the circle", function() {
+  const circleArea = utils.circleArea(4)
+  expect(circleArea).to.be.a("number")
+  expect(circleArea).to.equal(Math.PI * 16)
+})
+
 
 
 
